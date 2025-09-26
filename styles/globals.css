@@ -1,0 +1,4 @@
+@import "tailwindcss/preflight"; /* Thay cho @tailwind base */
+@import "tailwindcss/utilities"; /* Bao gồm luôn components + utilities */
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

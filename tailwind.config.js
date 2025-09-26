@@ -19,6 +19,7 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", "sans-serif"], // body
         logo: ["Dancing Script", "cursive"], // logo, tiêu đề chính
+        pacifico: ['Pacifico', 'cursive'],
       },
     },
   },

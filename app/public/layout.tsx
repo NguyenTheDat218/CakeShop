@@ -1,7 +1,6 @@
 // app/(public)/layout.tsx
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import Navbar from "@/components/layout/Navbar";
 
 export default function PublicLayout({
   children,
@@ -12,7 +11,6 @@ export default function PublicLayout({
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">{children}</main>
-      <Footer />
     </div>
   );
 }

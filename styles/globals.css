@@ -2,3 +2,10 @@
 @import "tailwindcss/utilities"; /* Bao gồm luôn components + utilities */
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+:root {
+  --font-pacifico: 'Pacifico', cursive;
+}
+
+.font-pacifico {
+  font-family: var(--font-pacifico);
+}
